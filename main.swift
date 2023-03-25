@@ -1,5 +1,5 @@
-var wholeNumber = 13
-
+var wholeNumber = Int.random(in: 10...20)
+print(wholeNumber)
 // Write your code below 
 switch wholeNumber {
   case let x where x % 2 == 0:
